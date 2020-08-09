@@ -3,7 +3,7 @@ Simple melody player, that requires single byte for a note.
 ### How does it work?
 `0b01011000` - example single-byte note
 - Two first MSB are (duration - 1) in ticks (of metronome). 
-In this example: 1
+In this example: 1, results in two tick delay.
 - Other bytes are "note number" - note calculated from A4 (number 20) 
 In this example: C#5 (number 24)
 
